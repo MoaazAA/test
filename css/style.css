@@ -1,0 +1,197 @@
+body{
+    height: 7000px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: white !important;
+}
+.home{
+    width: 100%;
+    height: 700px;
+    display: grid;
+}
+.home img{
+    max-width: 100%;
+}
+
+.about{
+    width: 100%;
+    height: 700px;
+}
+.about img{
+    max-width: 100%;
+}
+.about i{
+    height: 50px;
+    width: 50px;
+    color: #49b5e7;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.about i:hover{
+    background-color: #49b5e7;
+    color: white;
+}
+.about .small{
+    display: flex;
+}
+
+.part1{
+    background-image: url(../img/counts-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 30px 0px;
+}
+.part1 .numbers{
+    display: flex;
+    justify-content: space-around;
+}
+.part1 .co1{
+    color: #49b5e7;
+}
+/* Start Clients*/
+
+.clients{
+    width: 100%;
+    height: 400px;
+}
+.clients img{
+    max-width: 100%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+/* End Clients*/
+
+/* Start Service*/
+
+.service{
+    width: 100%;
+    height: 400px;
+}
+
+
+.service .smca{
+    display:flex;
+    flex-direction: row;
+}
+.service i{
+    padding: 15px;
+    margin: 15px;
+    font-size: 50px;    
+    border-radius: 50%;
+    transition: all 0.5 ease;
+}
+
+/* End Service*/
+
+/* Start Portfolio*/
+.portfolio{
+    width: 100%;
+    height: 750px;
+}
+.portfolio img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.portfolio ul{
+    list-style: none;
+    text-align: center;
+}
+.portfolio li{
+    display: inline;
+    padding: 0px 15px;
+    cursor: pointer;
+    font-weight: 200px;
+    font-size: 15px;
+}
+.portfolio li:hover{
+    color: #49b5e7;
+}
+
+/* End Portfolio*/
+
+/* Start slides*/
+.sli{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/cta-bg.jpg);
+    background-attachment: fixed;
+}
+.sli img{
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+/* End Slides*/
+
+/* Start Team*/
+
+.team{
+    width: 100%;
+    height: 400px;
+}
+.team .per1{
+    max-width: 25%;
+    height: 400px;
+    margin: 0px 10px;
+    background-image: url(../img/team/team-1.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.team .per2{
+    max-width: 25%;
+    height: 400px;
+    margin: 0px 10px;
+    background-image: url(../img/team/team-2.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.team .per3{
+    max-width: 25%;
+    height: 400px;
+    margin: 0px 10px;
+    background-image: url(../img/team/team-3.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.team .per4{
+    max-width: 25%;
+    height: 400px;
+    margin: 0px 10px;
+    background-image: url(../img/team/team-4.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.team i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: rgba(73, 181, 231, 0.8);
+    color: white;
+    /* position: relative;
+    top: 230px; */
+    cursor: pointer;
+    
+}
+.team i:hover{
+    background-color: #84d0f3;
+    transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+/* End Team*/
